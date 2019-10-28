@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  background-color: #f2f2f2;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 50px;
+  background-color: #4a90e2;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-weight: bold;
+}
+
+.profile-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header #text-face {
+  font-size: 24px;
+}
+
+.header #text-profile {
+  font-size: 12px;
+}
+
+ion-icon {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.post-list {
+  margin-top: 16px;
+  align-self: center;
+  width: 90%;
+  max-width: 700px;
+  padding: 5px;
+}
+
+.post {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.profile-photo {
+  border-radius: 50px;
+  background-color: #4a90e2;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.profile-container p {
+  font-weight: bold;
+}
+
+.profile-container small {
+  font-weight: normal;
+}
+
+small {
+  color: gray;
+}
+
+.line-bar {
+  height: 1px;
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.comment-container {
+  margin-top: 16px;
+  margin-top: 16px;
+  display: flex;
+}
+
+.comment-box {
+  background-color: #eeeeee;
+  border-radius: 20px;
+  padding: 12px;
+  margin-left: 5px;
+}
+
+#comment-name {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#comment-text {
+  font-weight: normal;
+}
